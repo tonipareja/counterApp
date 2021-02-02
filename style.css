@@ -40,3 +40,7 @@ ion-icon {
 .mb-btn{
     margin-bottom: 6rem;
 }
+
+button {
+    touch-action: manipulation;
+}
