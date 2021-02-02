@@ -10,12 +10,16 @@
 </head>
 <body>
     <div class="container d-flex justify-content-between flex-column">
+        <input type="number" min="0">
+        <input type="range" min="0" max="1000">
         <p id="maxim" class="fs-5 fw-bold mx-auto text-light m-5">Max. 250</p>
-        <p id="contador" class="text-light fw-bold font-counter mx-auto">89</p>
+        <p id="contador" class="text-light fw-bold font-counter mx-auto">0</p>
         <div class="d-grid gap-2 mb-btn">
-            <button class="btn btn-light btn-mas text-primary" type="button"><ion-icon name="add-outline"></ion-icon></button>
-            <button class="btn btn-light btn-menos text-primary" type="button"><ion-icon name="remove-outline"></ion-icon></button>
+            <button onclick="aumentar()" class="btn btn-light btn-mas text-primary" type="button"><ion-icon name="add-outline"></ion-icon></button>
+            <button onclick="reducir()" class="btn btn-light btn-menos text-primary" type="button"><ion-icon name="remove-outline"></ion-icon></button>
           </div>
     </div>
+
+    <script src="/script.js"></script>
 </body>
 </html>
