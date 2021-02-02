@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --var-light:#EAEAEA;
+    --var-primary:#485FB0;
+
+}
+
+
+  body{
+    background: rgb(72,95,176);
+    background: radial-gradient(circle, rgba(72,95,176,1) 33%, rgba(38,64,89,1) 90%);
+}
+
+.font-counter{
+    font-size: 12rem;
+}
+
+.btn-mas{
+    height: 8rem;
+}
+
+.btn-menos{
+    height: 6rem;
+}
+
+ion-icon {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.container{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mb-btn{
+    margin-bottom: 6rem;
+}
