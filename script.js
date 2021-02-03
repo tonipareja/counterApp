@@ -1,9 +1,13 @@
 let contador = document.getElementById("contador");
+let maxim = document.getElementById("maxim");
 let count = 0;
 
+
 function aumentar(){
-    count++;
-    contador.innerHTML = count;
+    if (count < maxim.value) {
+        count++;
+        contador.innerHTML = count; 
+    }
 }
 
 function reducir(){
@@ -12,3 +16,5 @@ function reducir(){
         contador.innerHTML = count; 
     }
 }
+
+

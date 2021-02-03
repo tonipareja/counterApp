@@ -10,12 +10,12 @@
 </head>
 <body ontouchstart="">
     <div class="container d-flex justify-content-between flex-column">
-        <p id="maxim" class="fs-5 fw-bold mx-auto text-light m-5">Max. 250</p>
+        <p class="fs-5 fw-bold mx-auto text-light m-5">Max. <input class="capacity text-light" type="number" min="0" name="maxx" id="maxim" value="46"></p>
         <p id="contador" class="text-light fw-bold font-counter mx-auto">0</p>
         <div class="d-grid gap-2 mb-btn">
             <button onclick="aumentar()" class="btn btn-light btn-mas text-primary" type="button"><ion-icon name="add-outline"></ion-icon></button>
             <button onclick="reducir()" class="btn btn-light btn-menos text-primary" type="button"><ion-icon name="remove-outline"></ion-icon></button>
-          </div>
+        </div>
     </div>
 
     <script src="/script.js"></script>
