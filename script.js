@@ -18,6 +18,6 @@ function reducir(){
 }
 
 function selection(){
-    maxim.value.set(0, 999999);
+    maxim.select()
     console.log(selection);
 }

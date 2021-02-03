@@ -60,5 +60,10 @@ button {
 .capacity{
     background: none;
     border: none;
-    width: 50px;
+    width: 40px;
+    cursor: pointer;
 }
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
