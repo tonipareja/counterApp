@@ -17,4 +17,7 @@ function reducir(){
     }
 }
 
-
+function selection(){
+    maxim.value.set(0, 999999);
+    console.log(selection);
+}
